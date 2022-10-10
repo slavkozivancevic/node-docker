@@ -12,7 +12,6 @@ services:
       - ./:/app
       - /app/node_modules
     environment:
-      - PORT=3000
       - NODE_ENV=development
       - MONGO_USER=Slavko91
       - MONGO_PASSWORD=Slavkic.86
